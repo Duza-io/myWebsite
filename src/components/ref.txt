@@ -1,0 +1,32 @@
+import React from 'react';
+import macbook from './macbook.jpg';
+import airtag from './airtag.jpg';
+import hand_phone from './hand_phone.jpg';
+import dj_booth from './dj_booth.jpg'
+
+const Grid = () => {
+  const bodyText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+  return (
+    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4">
+      <Card title="Card 1" subtitle="Subtitle" imgSrc={macbook} imgAlt="macbook" bodyText={bodyText} />
+      <Card title="Card 2" subtitle="Subtitle" imgSrc={airtag} imgAlt="airtag" bodyText={bodyText} />
+      <Card title="Card 3" subtitle="Subtitle" imgSrc={hand_phone} imgAlt="hand with phone" bodyText={bodyText} />
+      <Card title="Card 4" subtitle="Subtitle" imgSrc={dj_booth} imgAlt="dj booth" bodyText={bodyText} />
+    </div>
+  );
+}
+
+const Card = ({ title, subtitle, imgSrc, imgAlt, bodyText }) => (
+  <div className="shadow rounded-lg">
+    <img className="rounded-tl-lg rounded-tr-lg h-52 w-full" src={imgSrc} alt={imgAlt} />
+    <div className="p-2">
+      <div className="text-2xl font-semibold">{title}</div>
+      <div className="opacity-70">{subtitle}</div>
+    </div>
+    <div className="px-2 pb-4">
+      {bodyText}
+    </div>
+  </div>
+);
+
+export default Grid;
