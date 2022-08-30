@@ -20,7 +20,7 @@ export default function Contact() {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", name, email, message }),
         })
-            .then(() => alert("Message sent!"))
+            .then(() => alert("Message sent!"), window.location.reload(false))
             .catch((error) => alert(error));
     }
 
