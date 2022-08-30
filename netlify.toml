@@ -1,1 +1,2 @@
-Cl = npm run build
+[build]
+    Cl = npm run build
