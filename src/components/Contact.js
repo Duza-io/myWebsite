@@ -15,11 +15,11 @@ export default function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        e.reset()
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", name, email, message }),
+            e: e.reset()
         })
             .then(() => alert("Message sent!"))
             .catch((error) => alert(error));
