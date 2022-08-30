@@ -22,11 +22,8 @@ export default function Contact() {
         })
             .then(() => alert("Message sent!"))
             .catch((error) => alert(error));
-            e.setState({
-                name: '',
-                email: '',
-                message: ''
-            })
+            
+            e.target.reset()
     }
 
     return (
