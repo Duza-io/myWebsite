@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa"
 
 export default function About() {
     return (
@@ -32,6 +32,9 @@ export default function About() {
                         </a>
                         <a href="https://www.instagram.com/mrkdz19/" target={"_blank"} rel="noreferrer" className="text-white bg-transparent hover:text-red-400">
                             <FaInstagram />
+                        </a>
+                        <a href="https://github.com/Duza-io" target={"_blank"} rel="noreferrer" className="text-white bg-transparent">
+                            <FaGithub />
                         </a>
                     </div>
                 </div>
