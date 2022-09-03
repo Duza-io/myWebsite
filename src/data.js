@@ -24,7 +24,7 @@ export const projects = [
         title: "Side Projects",
         subtitle: "Program like payroll, billing system, calculator, etc.",
         description:
-            "These programs helped me enhace my skills and understanding programming languages, these programs can help you too soon.",
+            "These programs helped me enhace my skills and understand programming languages, these programs can help you too soon.",
         image: "./4.svg",
     },
 ];
