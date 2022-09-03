@@ -33,6 +33,9 @@
 */
 
 html {
+
+  background: black;
+
   line-height: 1.5;
   /* 1 */
   -webkit-text-size-adjust: 100%;
