@@ -1,30 +1,30 @@
 export const projects = [
     {
-        title: "Title",
-        subtitle: "SubTitle",
+        title: "Web Applications",
+        subtitle: "Mostly Portfolios and Landing Pages",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "I can create basic web applications using HTML, CSS, JavaScript, ReactJS, and PHP.",
         image: "./1.svg",
     },
     {
-        title: "Title",
-        subtitle: "SubTitle",
+        title: "Mobile Applications",
+        subtitle: "Basics Mobile Apps",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "I'm using Java and Flutter for building basic mobile apps such as note-taking app.",
         image: "./2.svg",
     },
     {
-        title: "Title",
-        subtitle: "SubTitle",
+        title: "Websites for Commercial Use",
+        subtitle: "ECommerce Web App",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "I can create a website or template for business purposes.",
         image: "./3.svg",
     },
     {
-        title: "Title",
-        subtitle: "SubTitle",
+        title: "Side Projects",
+        subtitle: "Program like payroll, billing system, calculator, etc.",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "These programs helped me enhace my skills and understanding programming languages, these programs can help you too soon.",
         image: "./4.svg",
     },
 ];
