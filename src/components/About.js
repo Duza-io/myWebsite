@@ -11,9 +11,8 @@ export default function About() {
                         <br className="hidden lg:inline-block" /> I love programming
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                        laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                        Laborum, voluptas natus?
+                        Hi! I am Mark Andrew B. Duza, an aspiring software engineer. I am currently studying Bachelor
+                        of Science in Information and Technology at STI College Ortigas-Cainta.
                     </p>
                     <div className="flex justify-center">
                         <a href="#contact" className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-black dark:text-white focus:none focus:outline-none focus:outline-none dark:focus:outline-none">

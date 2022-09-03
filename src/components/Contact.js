@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css"
 
 export default function Contact() {
     const [name, setName] = React.useState("");
@@ -22,14 +23,14 @@ export default function Contact() {
         })
             .then(() => alert("Message sent!"))
             .catch((error) => alert(error));
-            
+
         e.target.reset()
     }
 
     return (
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-                <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative hide-map">
                     <iframe
                         width="100%"
                         height="100%"
@@ -41,7 +42,7 @@ export default function Contact() {
                         style={{ filter: "opacity(0.7)" }}
                         src="https://www.google.com/maps/embed/v1/place?q=phase+9+bayahang+pag-asa+atlas+st.+imus,+cavite&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
-                    <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+                    <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md hide-contact">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 ADDRESS
@@ -74,8 +75,7 @@ export default function Contact() {
                         Contact Me
                     </h2>
                     <p className="leading-relaxed mb-5">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                        suscipit officia aspernatur veritatis. Asperiores, aliquid?
+                    You can contact me anytime for inquiries or to give a comment or suggestions. I'm available for commissions.
                     </p>
                     <div className="relative mb-4">
                         <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -119,7 +119,7 @@ export default function Contact() {
                     </div>
                     <button
                         type="submit"
-                        className="text-black bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-800 rounded text-lg">
+                        className="bg-transparent hover:bg-green-500 text-white font-semibold hover:text-black py-2 px-4 border border-green-500 hover:border-transparent rounded">
                         Submit
                     </button>
                 </form>

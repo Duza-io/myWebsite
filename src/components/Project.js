@@ -12,9 +12,7 @@ export default function Projects() {
             Recent Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            These are the things I recently built during my free time. This section is in maintenance for a bug fix source codes will be available soon.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4">
@@ -28,7 +26,7 @@ export default function Projects() {
                 <h4 className="text-lg font-bold tracking-tight text-white opacity-70">
                   {project.subtitle}
                 </h4>
-                <div className="px-2 pb-4 font-normal text-gray-700 dark:text-gray-400 ">
+                <div className="px-2 pb-4 font-normal tracking-tight text-gray-700 dark:text-gray-400 ">
                   {project.description}
                 </div>
               </div>
