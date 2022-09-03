@@ -20,13 +20,13 @@ export default function Projects() {
             <div className="items-center bg-gray-800 rounded-lg p-5" key={project.image}>
               <img className="rounded-tl-lg rounded-tr-lg h-52 w-full" src={project.image} alt="pics" />
               <div className="p-2">
-                <h1 className="text-2xl font-bold dark:text-white">
+                <h1 className="text-2xl font-bold text-white dark:text-white">
                   {project.title}
                 </h1>
-                <h4 className="text-lg font-bold tracking-tight text-white opacity-70">
+                <h4 className="text-lg font-semi-bold tracking-tight text-grey-700 opacity-70">
                   {project.subtitle}
                 </h4>
-                <div className="px-2 pb-4 font-normal tracking-tight text-gray-700 dark:text-gray-400 ">
+                <div className="px-2 pb-4 font-normal tracking-tight text-white dark:text-white opacity-80">
                   {project.description}
                 </div>
               </div>
