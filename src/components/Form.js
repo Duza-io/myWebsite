@@ -125,7 +125,7 @@ export default function Form() {
                             value={inputs.message}
                             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         />
-                        <button type="submit" disabled={status.submitting}>
+                        <button className="bg-transparent hover:bg-green-500 text-white font-semibold hover:text-black py-2 px-4 border border-green-500 hover:border-transparent rounded" type="submit" disabled={status.submitting}>
                             {!status.submitting
                                 ? !status.submitted
                                     ? 'Submit'
