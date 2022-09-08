@@ -58,6 +58,7 @@ export default function Form() {
             .catch((error) => {
                 handleServerResponse(false, error.response.data.error);
             });
+        // e.target.reset()
     };
     return (
         <section id="contact" className="relative">
@@ -132,7 +133,7 @@ export default function Form() {
                         {!status.submitting
                             ? !status.submitted
                                 ? 'Submit'
-                                : 'Submitted'
+                                : 'Submitted \u2713'
                             : 'Submitting...'}
                     </button>
 
