@@ -52,7 +52,7 @@ export default function Form() {
             .then((response) => {
                 handleServerResponse(
                     true,
-                    'Thank you, your message has been submitted.',
+                    alert("Message sent!"),
                 );
             })
             .catch((error) => {
