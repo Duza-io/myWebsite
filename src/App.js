@@ -1,9 +1,10 @@
 import React from "react";
 import About from "./components/About";
-import Contact from "./components/Contact";
+//import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Project";
 import Skills from "./components/Skills";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
-      <Contact />
+      <Form />
     </main>
   );
 }

@@ -15,7 +15,7 @@ export default function Projects() {
             These are the things I recently built during my free time. This section is in maintenance for a bug fix source codes will be available soon.
           </p>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4">
+        <div className="flex flex-wrap grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4 col-md-6">
           {projects.map((project) => (
             <div className="items-center bg-gray-800 rounded-lg p-5" key={project.image}>
               <img className="rounded-tl-lg rounded-tr-lg h-52 w-full" src={project.image} alt="pics" />

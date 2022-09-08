@@ -40,7 +40,7 @@ export default function Contact() {
                         marginHeight={0}
                         marginWidth={0}
                         style={{ filter: "opacity(0.7)" }}
-                        src="https://www.google.com/maps/embed/v1/place?q=phase+9+bayahang+pag-asa+atlas+st.+imus,+cavite&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Area 51 E-sports Pag-asa Binangonan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                     />
                     <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md hide-contact">
                         <div className="lg:w-1/2 px-6">
@@ -48,8 +48,8 @@ export default function Contact() {
                                 ADDRESS
                             </h2>
                             <p className="mt-1">
-                                Phase 9 Atlas St. <br />
-                                Bahayang Pag-Asa Barangay Maharlika Imus, Cavite
+                                Catolos Compound <br />
+                                Sitio Sapa Barangay Pag-Asa Binangonan, Rizal
                             </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
