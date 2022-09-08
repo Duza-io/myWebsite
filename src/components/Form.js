@@ -116,15 +116,17 @@ export default function Form() {
                             value={inputs.email}
                             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         />
-                        <label htmlFor="message">Message</label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            onChange={handleOnChange}
-                            required
-                            value={inputs.message}
-                            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        />
+                        <div className="relative mb-4">
+                            <label htmlFor="message">Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                onChange={handleOnChange}
+                                required
+                                value={inputs.message}
+                                className="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            />
+                        </div>
                         <button className="bg-transparent hover:bg-green-500 text-white font-semibold hover:text-black py-2 px-4 border border-green-500 hover:border-transparent rounded" type="submit" disabled={status.submitting}>
                             {!status.submitting
                                 ? !status.submitted
