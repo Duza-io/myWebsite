@@ -11,4 +11,10 @@ export const skill = [
     {
         title: "Web Dev",
     },
+    {
+        title: "C#",
+    },
+    {
+        title: "Mobile App Dev"
+    }
 ];

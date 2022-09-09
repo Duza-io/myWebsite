@@ -10,6 +10,7 @@ export default function Form() {
     });
     const [inputs, setInputs] = useState({
         email: '',
+        name: '',
         message: '',
     });
     const handleServerResponse = (ok, msg) => {
@@ -21,6 +22,7 @@ export default function Form() {
             });
             setInputs({
                 email: '',
+                name: '',
                 message: '',
             });
         } else {
@@ -119,7 +121,19 @@ export default function Form() {
                         />
                     </div>
                     <div className="relative mb-4">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="name" className="leading-7 text-sm text-gray-400">Name</label>
+                        <input
+                            id="name"
+                            type="text"
+                            name="name"
+                            onChange={handleOnChange}
+                            required
+                            value={inputs.name}
+                            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        />
+                    </div>
+                    <div className="relative mb-4">
+                        <label htmlFor="message" className="leading-7 text-sm text-gray-400">Message</label>
                         <textarea
                             id="message"
                             name="message"
@@ -136,7 +150,6 @@ export default function Form() {
                                 : 'Submitted \u2713'
                             : 'Submitting...'}
                     </button>
-
                 </form>
                 {status.info.error && (
                     <div className="error">Error: {status.info.msg}</div>
