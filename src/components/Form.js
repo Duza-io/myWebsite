@@ -152,9 +152,9 @@ export default function Form() {
                     </button>
                 </form>
                 {status.info.error && (
-                    <div className="error">Error: {status.info.msg}</div>
+                    alert(status.info.msg)
                 )}
-                {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
+                {!status.info.error && status.info.msg && alert(status.info.msg)}
             </div>
         </section>
     );
