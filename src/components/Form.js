@@ -58,7 +58,7 @@ export default function Form() {
                 );
             })
             .catch((error) => {
-                handleServerResponse(false, error.response.data.error);
+                handleServerResponse(false, alert(error.response.data.error));
             });
         // e.target.reset()
     };
