@@ -13,7 +13,7 @@ export default function Skills() {
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             These are the skills that I've acquired throughout the year.
-            Most of it is self-thought because I was already studying programming a few years ago.
+            Most of it is self-taught because I was already studying programming a few years ago.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
